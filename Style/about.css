@@ -1,0 +1,16 @@
+#about-us {
+    margin-top: 220px;
+}
+.title-about {
+    font-size: 30px;
+    color: rgb(76, 0, 255);
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: -2px -9px 4px rgb(76, 0, 255);
+}
+.about-info {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 20px;
+}

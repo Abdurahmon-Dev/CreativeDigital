@@ -8,62 +8,110 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="./Style/header.css">
     <link rel="stylesheet" href="./Style/index.css">
     <title>Document</title>
 </head>
 
 <body>
     <div>
-        <header class="header" style="height: 100vh;">
-            <img src="./Assets/2.jpg" class="back-image" alt="">
-            <section class="top-header">
-                <ul class="d-flex gap-2 icon-link">
-                    <a href=""><i class="ri-twitter-line"></i></a>
-                    <a href=""><i class="ri-telegram-line"></i></a>
-                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+        <header id="mainC" class="top-header">
+            <ul class="d-flex gap-2 icon-link">
+                <a href=""><i class="ri-twitter-line"></i></a>
+                <a href=""><i class="ri-telegram-line"></i></a>
+                <a href=""><i class="ri-facebook-circle-line"></i></a>
+            </ul>
+            <div class="d-flex gap-5">
+                <div class="header-link d-flex align-items-center">
+                    <i class="ri-message-2-line"></i>
+                    <span>landinpage@mail.ru</span>
+                </div>
+                <div class="header-contact d-flex align-items-center">
+                    <i class="ri-phone-fill"></i>
+                    <span>+998 (99) 847 64 06</span>
+                </div>
+            </div>
+        </header>
+        <section class="menu-header d-flex align-items-center justify-content-between">
+            <h1 class="title">Logo</h1>
+            <div class="d-flex gap-4 align-items-center">
+                <ul class="categories d-flex gap-3">
+                    <a href="#mainC">
+                        <li id="galvniy">Главная</li>
+                    </a>
+                    <a href="#about-us">
+                        <li id="o-nas">О нас</li>
+                    </a>
+                    <a href="">
+                        <li>Услуги</li>
+                    </a>
+                    <a href="">
+                        <li>Новости</li>
+                    </a>
+                    <a href="">
+                        <li>Партнеры</li>
+                    </a>
+                    <a href="">
+                        <li>Контакты</li>
+                    </a>
                 </ul>
-                <div class="d-flex gap-5">
-                    <div class="header-link d-flex align-items-center">
-                        <i class="ri-message-2-line"></i>
-                        <span>landinpage@mail.ru</span>
-                    </div>
-                    <div class="header-contact d-flex align-items-center">
-                        <i class="ri-phone-fill"></i>
-                        <span>+998 (99) 847 64 06</span>
-                    </div>
+                <div class="enter-btn">
+                    <span>Войти</span>
                 </div>
-            </section>
-
-            <section class="menu-header d-flex align-items-center justify-content-between">
-                <h1 class="title">Logo</h1>
-                <div class="d-flex gap-4 align-items-center">
-                    <ul class="categories d-flex gap-3">
-                        <a href=""><li>Главная</li></a>
-                        <a href="#about-us"><li>О нас</li></a>
-                        <a href=""><li>Услуги</li></a>
-                        <a href=""><li>Новости</li></a>
-                        <a href=""><li>Партнеры</li></a>
-                        <a href=""><li>Контакты</li></a>
-                    </ul>
-                    <div class="enter-btn">
-                        <span>Войти</span>
-                    </div>
-                </div>
-            </section>
-
-            <section class="wellcome">
+            </div>
+        </section>
+        <section class="">
+            <img src="./Assets/2.jpg" class="back-image" alt="">
+            <div class="wellcome">
                 <span>wellcome to capms</span>
-                <h2>CREATIVE DIGITAL AGENCY     FOR YOU </h2>
+                <h2>CREATIVE DIGITAL AGENCY FOR YOU </h2>
                 <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, consequatur!</small>
                 <button>Купить</button>
-            </section>
-            
-        </header>
-        <main id="about-us" class="" style="height: 100vh; background-color: aqua;">
-            
+            </div>
+        </section>
+        <main id="about-us" class="d-flex justify-content-between align-items-center"
+            style="height: 60vh; padding: 0 13%;">
+            <div class="about_us d-flex justify-content-between align-items-center">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhESFRUWEBIYFRUWFQ8SEhIWFRUWGBUVFhYYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGy0dHyYtKy0tLS0tLSstLS0tKy0tLSstLS0vLS0tLS0tLS0tLS0tLSsrLS0tLS0tLS01Ky0tLf/AABEIAKgBKwMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAUCAwYBB//EADsQAAIBAgMFBgMGBQQDAAAAAAABAgMRBCExBRJBUXEiYYGRocEGE7EjMkJy0fAUUmJz8SSCorIHNOH/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQMEAgX/xAAqEQEBAAIBAgUEAQUBAAAAAAAAAQIRAwQhEjEzQYEFUXGx8BMjMmHBIv/aAAwDAQACEQMRAD8A+4gAAAAAAAAAAAAAAAAAAAAAAAAEOjtBSqOnazV7PnbXoRtMlvkmAAlAAQNpbTjSVtZPRe75EW6TJvyT7katj6cdZros36HM4vac56vLkskRL3KrzT2XY8Fvm6yO1qL/ABejJdOrGSvFpruzOKUWbsPiJQd4u3v1InN93WXT9uzsgQtm49VVyktV7ruJpdLtnssuqAAlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGuu7RbX8r+h5XrqCu+fUxqVoum5J3W6/oRamT3RNk4hveUm3azu9bO/wChX7NT+en+Z38GY/xEacZycrb1Npfmbsvqbdmy+1j0l9CrxbsarjrxVfgAuZGM5WTfJHD4+u5zcm9WdjtKpu0pv+l+uRw9R5lHNfZo4J7kSRTRpSyPFjKa1ml1yKNNcTEj2xphXjJdmSfQzidJ024Kv8upGXfn0ep2KOGtmup2tB9mP5V9C3h92PqJ3lbAAXs4AAAAAAAAAAAAAAAAAAAAAAAAAAAAA11qSlFp8Slp1HDfg07OLUl32yaL4qNtUbOM9E+zL2Zxn5bi3is34a5rBp1qLhJ2ay6Nf4JEdoOnH5kVeUYyyel0mrPxNlbD7s1KGj+97MVKay8TO29q3Yba8+NRt8dNehcYDaO892Xg/ZlX8P7Ap9qtUipueUVJJpRTy6vv5Ge2MGqSvCVlKVt217c3F3yLJ4pNqMv6eWXhjL4g2hLOnBRcXFXfffNLpZeZQTjmZ7UrO0FF2TqRu1qlz6ZrzFdXZXlbktmEwkRMdKW72Vd8tCjqRqu7moWsmuN3ndc1w83odK0iNi3CKvJpLvucyLpjtD2ZlZPLxv6kPbmOaluXazyefHLXh1LCjBXTStcyxmDjJpt5r96DTqzs07BxTc9xyk2lpK+j0eZ9SpLJdF9D55hcOk07K/A+iQWS6F3D7sPUzVj0AF7KAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoxuHVSDi+Ky7nwZvApvTmaOnejTWjclVYWqzX9V/B5+4r07q5msbscvdH2JtacOxOzhfLK0oXd7d6G2MVGvPst2isnms+OT8F4EShDtW5Oz9vQm1qK4LPlzfDxG7ZpNxxxy8U80SWAn8pVEm+1JWSbdrK1ks9bojyhJZSVpWV1yfFeZ22FpbkIx5JefE5jbsN2s+UrNfvrc6yw1Nq8eW5XSoauVVanv5vNfh6cy2+ak8yvq4GMrN3uopfemllySZVGzCo6w9SLvGbd7ZN5LlbkZ42rV3W7p2s9M3u65myNCK0qzj3XUvqeVKUkrqd1nlZZvvOr2d7W2w/tJ0++UX4LN/Q744/4Rwtpx5Qp+yidgW8U7PN6nLeYAC1nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxqTSTb4ICn20t2cZc1Z+H+TRCocvs7b+JxWIxMa8FTjRqKEKaX3dXvOX4rrdd9ORcqtYoz7ZWNPHN4xunDdnvrjk/Zk7Z1PfqX4Rz8eH77iulVvZXXakkuGrt7nS4LCqnFRWfFt6tk4Y7py5aiQcz8Vtby5qPu7F/XxlOH3pxXjn5HNbcg6snKMknpnpJcL8uveXXC5Tsz4ZzHKbUVSWdxdd3caaqlF2lFx66Po9GaKsX/wDUZLNXu9DDL7JSpweqRtcFYq4p3ylItdm0HPN33Vx580jrDC5XUOTlmM3XV/C2G3abn/M8ui/b9C7Ofw201Rjmrxvw1WXAu8PiIzV4yTRqvHcOzzvH4rttABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABXbWrWSjzzfT9/QsGc9jK+9Jvhw6LQs4sd1xndRBxFBOW+rKVkm/5ktE/wBSNipq2aS6kivUS1K2viU7XipR3lqrpO+qvxO+TgmXfyTx89x7eyBt3BVsSoQpNQp3cpzbavb7qilm+L4LJZnV0NoVY0oQlNzlGCTnZKU2uLIe5LK/XqbJLkdYceOM05z5LldtOIjv559/PqMNiMrPVa+zNsLGupTV962a4r6Pmi2VU3SUZKzSafB2aKraGAjTW/Ce6v5GpTTv/La8l6roTamIhGDqN2ild81bh1OX2Xt+depNVYOm1OSUdeyn2c+Lta/eUdVZjhuzbV0eFz5PDLpb4DZ8qjvNpRX4Y/el1fBerLqMUlZJJLRaHM7UrYhf+tuqorPt3cXmm4tLVNZF7szHfNinKDhNfeg87NauL/FHvOeku+PetJ6zHw8mt7/4zxXLufqMLJxUbNppJXR5e+fNmUeRorMtMPtiSykt70Zb4bFxn9158nk/I5RPPwPaVWz+j5FWXHL5OplXYgocLtWUcpZrv18y4oYmM9H4cSm42LJlK3AA5SAAAAAAAAAAAAAAAAAAAAAABF2jWcIXWrdiZNot0g7XxbfYi7LPefPuKV11dw4qKb5JO9s/B+Rox2PlvfKopSqfik84Uk+MucuUfYhVqi3/AOHg96dlUqybtJ2asm7ayaXSMbZZGzDDUUZXdT5SXdfv0Ri6SjBQ3rpSvw531IVSf80ZN8N1pr1VyRQmkrz4Jt30SSzbOrJpEqfRzV30XRZGWhlG3DThbQ9kjnWktVsxKBkwmBEngYPXi07XybWjaKvH4aDqqyzjm3zvkl5J+hfSRUxV51O6aX/CL9zN1ednFWzocZeaM6bjG+Wbt9CVSp5Z8/IiS+8n3onR0I6PPxcUn2T12Hh5bfv3exQi8z1MwuamNlFZs8S1MnwYazAxhPhyZKwtZxaafEhfiNtGQs7I26+jUUkmuKMys2JXunHlmizMdmqvl3AAEJAAAAAAAAAAAAAAAAAAAKP4grXtBStzfLp3lpjcSqcXLjou9nH4/FdrvcW/VL3LeLHd2rzvbTTiKsKMGoLn1b4tviyt2RR3FKrN9upK7b4JfdRvqdrvMMbN5Rjf/ak5eCZqilP+dwi4x5yWr6GUKTcXutp2ylq0+DfMpOzeNoT37K8pSvafGyWTLrOME08/R9SbUxv2ZiPmUoytutb0XHhFwk4tdE4ktMofhvG77xEeEcTKy6xjL1cm/EurkZTuR6zGR45njZylk2VNPKpV/PF/8I/oWCkV05faz/LTfnvfoZOt9K/Db0HrT5Z1CXTleKZDbN9N9lLuRR9OvbKfho+pT/G/lJvkeI8i/oZxR6enlbImZ5E2NDRtHks11NWHn25LkiS4lfg53qVmtFJR8Urv6k+yPdd7IrWqLvy8zpjjsPK0kddSnvRT5pMy8s7rsGYAKnYAAAAAAAAAAAAAAAAAeAc98Q4ntqPCK9Xn9LHLYypece+Ml9f0LXale9Sp+aefS6X0KLEyvOm+9mzjmoz5XdbaNVK6btZfQ1RxGbd9cteBrxVnndIiThvL7+73alscram9+UbaL0Nu08YqcXdX7Lsla7dsku9mrZNO0U+St4srPjenP+H+ZT1g02v6Xx8NelxPNPsqv/He0d517u+9Wcr801ZPySO9p1j5N8CVd2rNc1H0ufR/m8Sc0RZV5cTCFYwoVN5WI9S6ZU6S5PiQa7+1l/bp/Wob4VCNVf2r/tR9JS/Uy9Z6N+P22dDf70+f02Gyk/p7mtGyGi/fEyfTv8sp/ps+pz/xj+UqL0N0SPA3RZ60ePWaNiNVzJTJQyZW4Gmoxf8AVUnN9ZSb9/Q2bUrzVKpuJbypzcb3tdJkPZcvs4Z37Ec+d0PY91pS1XU6jZU7013XXkzk6U811Oi2BUynHlK/n/gz8s7LMPNbAAoWgAAAAAAAAAAAAAeBgAAAOD2lFxqTi+E5+rdvqUqzcO6bOu+L8A19vFXVlv8AdbSXll4I4itXcVJrnl4mzDLc2z5TVR8RWbdu88oR6366+HAjKT8X5ljg6Nvva8uLO5ULPDzlZcI8Fxb4u5ynx3i5pqCbUXB+N27+x1cG8k/BckcV8ZVd6olyil55+68jqeaFR8M9mr/t90fR6M7o4PYmFsvmd9l0VrnbYSXZQt2JdGrusn1lvRuiskiXgq1smcVLO2SIcKl68o8qUfWUv0LKcLaFPSX+rn/Zp/8AaRl6z0cv57tnQ+tPn9LFIzhp4sWPaXv+hi+n+pfw3/UfTn5SImcWeRWRhex68rxa2b57c1TkhGaJQ04+o/lztruTS6tZfUhYKyiktEkl0WhJx0+zLoyBgp5D2FthnmXewKtqjXOL9Myiwv1LLZ9TdqRfer9OJVnOzrF1oB4ZV70AAAAAAAAAADwAgAAAAAHjV1Z6HK7Z+CKVV3pVHSb1jZTp+CumvMA6ls8kWKB/AeLg+xVpSXPtQkvR/Uu9l/BrjnUqZ8d3N+b08gDr+rl5I8ESdpbFpYejUnDec2lHelK7SlJJ2WiPjO2m51pW4ydvPIA0cNtltV5zuuMNQUd2HKLXjZ39S5wWiALI4qckZ7nEAgTKE7qzK+NP/Uz/ALMP+0gDL1fo3+e7X0XrT5/SamZUdX4e4Bg6H1fivT+oT+z8xJR4wD13hsKiyNVJ52fEAIRcbpJPl7oi4SnwTuuYBZj5Ob5rCMpfhJmHb4gFeTqOzoT3oxlzin5o2AGNoj//2Q=="
+                    alt="">
+                <div class="p-5">
+                    <h3 class="title-about">ABOUT US</h3>
+                    <p class="about-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet incidunt
+                        consequuntur doloribus
+                        Culpa sint a recusandae praesentium dolores
+                        nostrum in?</p>
+                    <p class="about-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae exercitationem
+                        amet ad?</p>
+                    <a href="" style="text-decoration: underline">Подробнее</a>
+                </div>
+            </div>
         </main>
+        <section style="padding: 0 13%; height: 40vh; background-color: rgb(26, 10, 41) ">
+            <h4 class="why-we">Why we?</h4>
+            <div class="d-flex justify-content-center gap-3 m-auto flex-wrap w-75">
+                <div class="stepcard">
+                    <span>01</span>
+                    <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</strong>
+                </div>
+                <div class="stepcard step-right">
+                    <span>02</span>
+                    <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</strong>
+                </div>
+                <div class="stepcard">
+                    <span>03</span>
+                    <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</strong>
+                </div>
+                <div class="stepcard step-right">
+                    <span>04</span>
+                    <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</strong>
+                </div>
+            </div>
+
+        </section>
     </div>
+
+
+
+    <script src="./Script/main.js"></script>
 </body>
 
 </html>
