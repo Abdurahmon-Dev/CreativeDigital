@@ -48,7 +48,7 @@
                     <a href="#news">
                         <li>Новости</li>
                     </a>
-                    <a href="">
+                    <a href="#our-team">
                         <li>Партнеры</li>
                     </a>
                     <a href="">
@@ -65,7 +65,8 @@
             <div class="wellcome">
                 <span>wellcome to capms</span>
                 <h2>CREATIVE DIGITAL AGENCY FOR YOU </h2>
-                <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, consequatur!</small>
+                <small class="line-clamp-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto,
+                    consequatur!</small>
                 <button>Купить</button>
             </div>
         </section>
@@ -92,7 +93,7 @@
                 <div class="d-flex justify-content-center gap-3 m-auto flex-wrap w-75">
                     <div class="stepcard">
                         <span>01</span>
-                        <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</strong>
+                        <strong class="line-clamp">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</strong>
                     </div>
                     <div class="stepcard step-right">
                         <span>02</span>
@@ -136,31 +137,261 @@
             </div>
         </section>
         <section id="news" class="ess-h">
-                <h3 class="news-title">News</h3>
-                <div class="swiper-container mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="w-100 h-50 test" style="border-radius: 8px;">
-                                <img src="data:image/jpeg;base64,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" alt="">
+            <h3 class="news-title">News</h3>
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="w-100 h-50 d-block" style="border-radius: 8px;">
+                                <img src="./Assets/back_image.jpeg" alt="">
                             </div>
-                            <div>
-                                <strong></strong>
-                                
+                            <div class="p-3 news-card">
+                                <strong>Lorem ipsum dolor sit amet.lorem Lorem, ipsum dolor.</strong>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim eaque omnis non
+                                    nemo
+                                    sapiente.</p>
+                                <div>
+                                    <a href=""><i class="ri-twitter-line"></i></a>
+                                    <a href=""><i class="ri-telegram-line"></i></a>
+                                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                                </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
-                        <div class="swiper-slide">Slide 5</div>
-                        <div class="swiper-slide">Slide 6</div>
-                        <div class="swiper-slide">Slide 7</div>
-                        <div class="swiper-slide">Slide 8</div>
-                        <div class="swiper-slide">Slide 9</div>
                     </div>
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-button-prev color-pr"></div>
-                    <div class="swiper-button-next color-pr"></div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="w-100 h-50  d-block" style="border-radius: 8px;">
+                                <img src="./Assets/back_image.jpeg" alt="">
+                            </div>
+                            <div class="p-3 news-card">
+                                <strong>Lorem ipsum dolor sit amet.lorem Lorem, ipsum dolor.</strong>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim eaque omnis non
+                                    nemo
+                                    sapiente.</p>
+                                <div>
+                                    <a href=""><i class="ri-twitter-line"></i></a>
+                                    <a href=""><i class="ri-telegram-line"></i></a>
+                                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="w-100 h-50  d-block" style="border-radius: 8px;">
+                                <img src="./Assets/back_image.jpeg" alt="">
+                            </div>
+                            <div class="p-3 news-card">
+                                <strong>Lorem ipsum dolor sit amet.lorem Lorem, ipsum dolor.</strong>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim eaque omnis non
+                                    nemo
+                                    sapiente.</p>
+                                <div>
+                                    <a href=""><i class="ri-twitter-line"></i></a>
+                                    <a href=""><i class="ri-telegram-line"></i></a>
+                                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="w-100 h-50  d-block" style="border-radius: 8px;">
+                                <img src="./Assets/back_image.jpeg" alt="">
+                            </div>
+                            <div class="p-3 news-card">
+                                <strong>Lorem ipsum dolor sit amet.lorem Lorem, ipsum dolor.</strong>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim eaque omnis non
+                                    nemo
+                                    sapiente.</p>
+                                <div>
+                                    <a href=""><i class="ri-twitter-line"></i></a>
+                                    <a href=""><i class="ri-telegram-line"></i></a>
+                                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="w-100 h-50  d-block" style="border-radius: 8px;">
+                                <img src="./Assets/back_image.jpeg" alt="">
+                            </div>
+                            <div class="p-3 news-card">
+                                <strong>Lorem ipsum dolor sit amet.lorem Lorem, ipsum dolor.</strong>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim eaque omnis non
+                                    nemo
+                                    sapiente.</p>
+                                <div>
+                                    <a href=""><i class="ri-twitter-line"></i></a>
+                                    <a href=""><i class="ri-telegram-line"></i></a>
+                                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="w-100 h-50 d-block" style="border-radius: 8px;">
+                                <img src="./Assets/back_image.jpeg" alt="">
+                            </div>
+                            <div class="p-3 news-card">
+                                <strong>Lorem ipsum dolor sit amet.lorem Lorem, ipsum dolor.</strong>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim eaque omnis non
+                                    nemo
+                                    sapiente.</p>
+                                <div>
+                                    <a href=""><i class="ri-twitter-line"></i></a>
+                                    <a href=""><i class="ri-telegram-line"></i></a>
+                                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev color-pr"></div>
+                <div class="swiper-button-next color-pr"></div>
+            </div>
+        </section>
+
+        <section id="our-team" class="ess-h">
+            <h3 class="news-title">OUR TEAM</h3>
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="w-100 h-75  d-block m-auto" style=" transform: translateY(-20px);">
+                                <img class="team-img" src="./Assets/2.jpg" alt="">
+                            </div>
+                            <div class="p-3 team-card">
+                                <strong>Lorem ipsum dolor sit amet.lorem Lorem, ipsum dolor.</strong>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim eaque omnis non
+                                    nemo
+                                    sapiente.</p>
+                                <div>
+                                    <a href=""><i class="ri-twitter-line"></i></a>
+                                    <a href=""><i class="ri-telegram-line"></i></a>
+                                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="w-100 h-75  d-block m-auto" style=" transform: translateY(-20px);">
+                                <img class="team-img" src="./Assets/2.jpg" alt="">
+                            </div>
+                            <div class="p-3 team-card">
+                                <strong>Lorem ipsum dolor sit amet.lorem Lorem, ipsum dolor.</strong>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim eaque omnis non
+                                    nemo
+                                    sapiente.</p>
+                                <div>
+                                    <a href=""><i class="ri-twitter-line"></i></a>
+                                    <a href=""><i class="ri-telegram-line"></i></a>
+                                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="w-100 h-75  d-block m-auto" style=" transform: translateY(-20px);">
+                                <img class="team-img" src="./Assets/2.jpg" alt="">
+                            </div>
+                            <div class="p-3 team-card">
+                                <strong>Lorem ipsum dolor sit amet.lorem Lorem, ipsum dolor.</strong>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim eaque omnis non
+                                    nemo
+                                    sapiente.</p>
+                                <div>
+                                    <a href=""><i class="ri-twitter-line"></i></a>
+                                    <a href=""><i class="ri-telegram-line"></i></a>
+                                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="w-100 h-75  d-block m-auto" style=" transform: translateY(-20px);">
+                                <img class="team-img" src="./Assets/2.jpg" alt="">
+                            </div>
+                            <div class="p-3 team-card">
+                                <strong>Lorem ipsum dolor sit amet.lorem Lorem, ipsum dolor.</strong>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim eaque omnis non
+                                    nemo
+                                    sapiente.</p>
+                                <div>
+                                    <a href=""><i class="ri-twitter-line"></i></a>
+                                    <a href=""><i class="ri-telegram-line"></i></a>
+                                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="w-100 h-75  d-block m-auto" style=" transform: translateY(-20px);">
+                                <img class="team-img" src="./Assets/2.jpg" alt="">
+                            </div>
+                            <div class="p-3 team-card">
+                                <strong>Lorem ipsum dolor sit amet.lorem Lorem, ipsum dolor.</strong>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim eaque omnis non
+                                    nemo
+                                    sapiente.</p>
+                                <div>
+                                    <a href=""><i class="ri-twitter-line"></i></a>
+                                    <a href=""><i class="ri-telegram-line"></i></a>
+                                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="w-100 h-75  d-block m-auto" style=" transform: translateY(-20px);">
+                                <img class="team-img" src="./Assets/2.jpg" alt="">
+                            </div>
+                            <div class="p-3 team-card">
+                                <strong>Lorem ipsum dolor sit amet.lorem Lorem, ipsum dolor.</strong>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim eaque omnis non
+                                    nemo
+                                    sapiente.</p>
+                                <div>
+                                    <a href=""><i class="ri-twitter-line"></i></a>
+                                    <a href=""><i class="ri-telegram-line"></i></a>
+                                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="w-100 h-75  d-block m-auto" style=" transform: translateY(-20px);">
+                                <img class="team-img" src="./Assets/2.jpg" alt="">
+                            </div>
+                            <div class="p-3 team-card">
+                                <strong>Lorem ipsum dolor sit amet.lorem Lorem, ipsum dolor.</strong>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta enim eaque omnis non
+                                    nemo
+                                    sapiente.</p>
+                                <div>
+                                    <a href=""><i class="ri-twitter-line"></i></a>
+                                    <a href=""><i class="ri-telegram-line"></i></a>
+                                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev color-pr"></div>
+                <div class="swiper-button-next color-pr"></div>
+            </div>
         </section>
     </div>
 
