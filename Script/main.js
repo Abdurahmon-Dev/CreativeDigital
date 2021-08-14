@@ -1,20 +1,16 @@
-// window.addEventListener('load',() => {
-//     const url_string = location.href
-//     const url = new URL(url_string)
-//     getQueryVariable(url);
-// })
-// function getQueryVariable(url) {
-//     if (url.hash !== '#about-us') {
-//         document.getElementById('galvniy').classList.remove('active')
-//     }
-//     else {
-//         document.getElementById('galvniy').classList.add('active');
-//     }
-//     if (url.hash !== '#mainC') {
-//         document.getElementById('o-nas').classList.remove('active')
-//     }
-//     else {
-//         document.getElementById('o-nas').classList.add('active');
-//     }
-    
-// }
+let swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });

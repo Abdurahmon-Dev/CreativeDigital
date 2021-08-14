@@ -18,17 +18,18 @@
   }
   .header-link span , .header-contact span {
     color: white;
-    font-size: 16px;
+    font-size: 0.9rem;
     font-weight: 600;
   }
   .menu-header {
-      height: 80px;
+      height: 12vh;
       padding: 0 13%;
       position: sticky;
       top: 0;
       width: 100%;
       background-color: grey;
       opacity: 0.8;
+      z-index: 10;
   }
   .title {
       color: white;
@@ -36,7 +37,7 @@
       font-weight: 600;
   }
   .enter-btn {
-      width: 10em;
+      width: 10.3vw;
       height: 40px;
       display: flex;
       justify-content: center;
@@ -51,7 +52,7 @@
   }
   .categories li{
       color: white;
-      font-size: 18px;
+      font-size: 1rem;
       font-weight: 500;
   }
   .back-image {

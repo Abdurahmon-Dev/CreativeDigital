@@ -1,12 +1,12 @@
 #about-us {
-    margin-top: 220px;
+    height: 50vh
 }
 .title-about {
     font-size: 30px;
     color: rgb(76, 0, 255);
     font-weight: 600;
     margin-bottom: 20px;
-    text-shadow: -2px -9px 4px rgb(76, 0, 255);
+    text-shadow: -2px -9px 3px rgb(164, 135, 231);
 }
 .about-info {
     font-size: 15px;

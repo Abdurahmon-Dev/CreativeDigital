@@ -15,6 +15,8 @@
     width: 20vw;
     border-radius: 5px;
     height: 10.5vh;
+    border-bottom-right-radius: 0px  !important;
+    border-top-left-radius: 14px !important;
     cursor: pointer;
     transition: 0.4s ease;
     background: rgb(34,193,195);
@@ -22,16 +24,16 @@
 }
 .stepcard:hover {
     transform: translateX(-15px);
-    border-bottom: 3px white solid;
-    border-left: 3px white solid;
+    border-top: 2px white solid;
+    border-left: 2px white solid;
     border-radius: 10px;
 }
 .step-right:hover {
     transform: translateX(15px) !important;
     border-bottom: none;
     border-left: none;
-    border-top: 3px white solid !important;
-    border-right: 3px white solid !important;
+    border-top: 2px white solid !important;
+    border-right: 2px white solid !important;
 }
 .stepcard span {
     color: white;

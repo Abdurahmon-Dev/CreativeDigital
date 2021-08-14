@@ -44,3 +44,12 @@ table {
 a {
     text-decoration: none;
 }
+.ess-p {
+	padding: 0 13%;
+}
+.ess-h {
+	height: 100vh !important;
+}
+.test {
+	background-color: aqua;
+}
