@@ -1,0 +1,65 @@
+.sign-in {
+    width: 30vw;
+}
+.sign-in h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 40px 0;
+}
+.sign-in p {
+    width: 80%;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.auth {
+    background-color: white;
+    width: 27vw;
+    padding: 30px;
+    border-radius: 8px;
+}
+.auth strong {
+  font-size: 25px;
+  font-weight: 400;
+}
+.auth p {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 15px 0 20px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+}
+.auth label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.auth input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 0.5px #adacac solid !important;
+    outline: none;
+    color: grey;
+}
+.auth input:focus {
+    border-bottom: indigo 1px solid !important;
+}
+.auth button {
+    margin-top: 20px;
+    border: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background: rgb(34,193,195);
+    background: linear-gradient(158deg, rgba(34,193,195,1) 0%, rgba(51,92,105,1) 0%, rgba(88,42,149,1) 0%, rgba(88,43,155,1) 30%, rgba(84,60,247,1) 56%, rgba(90,45,253,1) 66%, rgba(149,27,209,1) 79%, rgba(83,61,246,1) 96%);
+}

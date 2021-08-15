@@ -18,3 +18,7 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+#about-us img {
+    width: 22vw;
+    height: 12vw;
+}

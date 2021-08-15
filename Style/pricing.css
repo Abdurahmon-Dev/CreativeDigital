@@ -50,6 +50,10 @@
     font-weight: 400;
     margin-left: 5%;
     margin-right: 5%;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .pricing-card button {
     position: absolute;

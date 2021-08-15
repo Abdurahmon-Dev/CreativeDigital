@@ -106,3 +106,23 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+#media-menu {
+    display: none;
+}
+#burger {
+    display: none;
+}
+.active-burger {
+    display: block !important;
+    width: 100vw !important;
+    height: 1000vh !important;
+    z-index: 9;
+    background-color: indigo;
+    position: relative;
+    padding: 20px;
+}
+#media-menu ul a {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}

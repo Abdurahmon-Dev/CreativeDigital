@@ -1,0 +1,14 @@
+@media only screen and (max-width: 800px) {
+    .categories a {
+        display: none ;
+    }
+    #burger{
+        display: block !important;
+        font-size: 40px;
+        color: black;
+        z-index: 10;
+    }
+    /* .media-menu  {
+        display: block !important;
+    } */
+}

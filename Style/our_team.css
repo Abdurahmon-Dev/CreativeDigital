@@ -3,19 +3,27 @@
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .team-card p {
     font-size: 15px;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .team-card div a i {
-    color: indigo;
+    color: rgb(38, 8, 59);
   }
   .swiper-slide .team-img {
     display: block;
-    width: 100%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
     border-radius: 999px;
