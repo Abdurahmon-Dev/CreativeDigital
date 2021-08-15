@@ -23,8 +23,9 @@
   }
   .swiper-slide .team-img {
     display: block;
-    width: 50%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     object-fit: cover;
     border-radius: 999px;
+    margin: auto;
   }
