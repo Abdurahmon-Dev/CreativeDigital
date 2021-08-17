@@ -12,3 +12,17 @@
         display: block !important;
     } */
 }
+@media only screen and (max-width:570px) {
+    .header-contact {
+        display: none !important;
+    }
+    .enter-btn span {
+        font-size: 15px;
+    }
+    .pricing-card strong {
+        font-size: 17px;
+    }
+    .pricing-card b {
+        font-size: 16px;
+    }
+}
